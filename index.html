@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="doctor-form">
+        <form class="doctor-verification-form">
+            <div>
+                <label>Full Name : </label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Registration No : </label>
+                <input type="text" name="regNo">
+            </div>
+            <div>
+                <label>Year : </label>
+                <input type="text" name="year">
+            </div>
+            <label>State Medical Council</label>
+            <select name="smc">
+                <option value="1">Andhra Pradesh Medical Council</option>
+                <option value="2">Arunachal Pradesh Medical Council</option>
+                <option value="3">Assam Medical Council</option>
+            </select>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+    <div class="doctor-details-1">
+        <div>Doctor Details 1 :</div>
+        <div class="doctor-details" id="details-1"></div>
+    </div>
+    <div class="doctor-details-2">
+        <div>Doctor Details 2 :</div>
+        <div class="doctor-details" id="details-2"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- [
+    1,
+    2023,
+    "APMC/FMR/112912",
+    "Andhra Pradesh Medical Council",
+    "SUDIGALA NATRAJ",
+    "S/O. SUDIGALA RAMANNA",
+    "<a href=\"javascript:void(0);\" onclick=\"openDoctorDetailsnew('12500177', 'APMC/FMR/112912')\">View</a>"
+] -->
